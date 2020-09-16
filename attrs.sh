@@ -23,11 +23,11 @@ done
 for i in 1 2 3; do
 	echo -e "4:$i \\e[4:${i}mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
 	echo
-	echo -e "58:2::255:0:0 \\e[4:${i}m\\e[58:2::255:0:0mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
+	echo -e "    58:2::255:0:0 \\e[4:${i}m\\e[58:2::255:0:0mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
 	echo
-	echo -e "58:2::0:255:0 \\e[4:${i}m\\e[58:2::0:255:0mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
+	echo -e "    58:2::0:255:0 \\e[4:${i}m\\e[58:2::0:255:0mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
 	echo
-	echo -e "58:2::0:0:255 \\e[4:${i}m\\e[58:2::0:0:255mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
+	echo -e "    58:2::0:0:255 \\e[4:${i}m\\e[58:2::0:0:255mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
 	echo
 done
 
