@@ -19,8 +19,10 @@ done
 # 4:1 Single Underline 
 # 4:2 Double Underline
 # 4:3 Curly Underline
+# 4:4 Dotted Underline
+# 4:5 Dashed Underline
 
-for i in 1 2 3; do
+for i in {1..5}; do
 	echo -e "4:$i \\e[4:${i}mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
 	echo
 	echo -e "    58:2::255:0:0 \\e[4:${i}m\\e[58:2::255:0:0mABCDEFGHIJKLMNOPQRSTUVWXYZ\\e[0m"
